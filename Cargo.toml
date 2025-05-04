@@ -1,0 +1,9 @@
+[package]
+name = "ds210_final_project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.1"
+serde = { version = "1.0", features = ["derive"] }
+rand = "0.8"
